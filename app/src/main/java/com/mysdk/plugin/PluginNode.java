@@ -1,0 +1,35 @@
+package com.mysdk.plugin;
+
+public enum PluginNode {
+    AT_CALL_EXTEND_FUNCTION,
+    ONAPPLICATION_ONCREATE,
+    BEFORE_INIT,
+    BEFOER_CHANNEL_INIT,
+    AFTER_INIT,
+    BEFORE_LOGIN,
+    BEFORE_CHANNEL_LOGIN,
+    AFTER_LOGIN,
+    BEFORE_LOGOUT,
+    BEFORE_CHANNEL_LOGOUT,
+    AFTER_LOGOUT,
+    BEFORE_PAY,
+    BEFOER_CHANNEL_PAY,
+    AFTER_PAY,
+    BEFORE_EXIT,
+    BEFORE_CHANNEL_EXIT,
+    AFTER_EXIT,
+    ON_CREATE,
+    ON_START,
+    ON_RESTART,
+    ON_PAUSE,
+    ON_RESUME,
+    ON_STOP,
+    ON_DESTROY,
+    ON_NEW_INTENT,
+    ON_ACTIVITY_RESULT,
+    SET_GAME_ROLE;
+
+    private PluginNode() {
+    }
+}
+
